@@ -1,0 +1,87 @@
+ ctrl+I
+ check the question is under which concept 
+ 
+ 1-#diiferace between while an for loop is that in while loop we have to define
+  the condition and in for loop we have to define the range
+  -number of differences are known in for and unknown in while
+
+
+2-#int() is type casting function it takes input as string and converts it to integer
+
+3-#// returns integer value even if the result is float
+
+4-#map functoin is used to take input from two or more than two variables
+#map fuction have three args- datatype,input(),split()
+#split() function is used to split the input values by default its space
+#we can also split by comma or any other character by passing that character in split function
+
+5-#in lists the adresses of the elements are kept in the memory where as in arrays the elements are kept in the memory
+6-lists are the ordered collections of any datatype
+  lists syntax-l=input("enter the number of elements).split()
+
+               var=list(map(int,input().split()))
+
+               var=[]
+               for i in range(3):
+                  e=int(input())
+                  var.append(e)
+7-.extend in lists is used for add a complete list to a list
+   if we added a single element it will break that single element and add it into the list
+   i.e var.extend(45) - output will have list with 2 added elements 4,5
+
+8-.remove[i]
+  .pop()
+  .clear() - it is used to clear the list.
+  .index(val) - returns the index of the element.
+  .count(val) - returns the number of times the element is present.
+  .copy() - returns copy of the list.
+  .sort() - sorts the list if ascending order then give arguement as.
+  .reverse() - reverse the elements of the list.
+
+9-slicing
+  vae[start:stop:step]
+
+10- # To get unique values, we can convert the list to a set.
+    # A set is a data structure that only stores unique elements.
+    # If you need the result as a list again, you can convert it back.
+
+11-- Lists are ordered, mutable collections that allow duplicate elements of any data type.
+   - Sets are unordered, mutable collections that only store unique elements.
+   - Arrays are ordered, mutable collections that typically store elements of 
+    the same data type for memory efficiency.
+   note : "Unordered" means there is no guaranteed sequence for the elements.
+           You cannot refer to an element by its position or index
+
+12-for prime numbers checking
+      for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True     
+
+13-Time Complexity
+  how many steps the code will take to execute
+  worst case-Big O 
+  for loop - O(n^a)  a-number of for loops
+      if any for loop having the highest time complexity then it is considered as the time complexity of that program
+  sorting-O(nlogn)
+  Reccursion-O(2^n) or O(2^n)
+  Binary Search- O(logn)
+
+14- unordered,changable key value pairs
+    syntx{key:value}
+    dictionary methods:
+     .get(key)-returns the value
+     .update(key:value)-updates the value(u can also give more than one)
+     .copy()-returns the copy of the dictionary
+     .clear()-clears the dictionary
+     .keys()-returns the keys of the dictionary
+     .values()-returns the values of the dictionary
+     .items()-returns all the key value pairs of the dictionary
+     .pop(key)-removes the key value pair
+     .popitem()-removes the last key value pair and return it as a tuple
+
+15-#numer of time a value is ocuuring in a list
+   #hasing - frequency table for a given list of finte and small values
+    #hashing is very easy to implement using dictionary in python
+
+
