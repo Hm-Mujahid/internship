@@ -1,5 +1,6 @@
  ctrl+I
  check the question is under which concept 
+ for i in nums: here i is not the index its the element itself
  
  1-#diiferace between while an for loop is that in while loop we have to define
   the condition and in for loop we have to define the range
@@ -84,4 +85,18 @@
    #hasing - frequency table for a given list of finte and small values
     #hashing is very easy to implement using dictionary in python
 
+16- '''moorse voting algorithm
+1. Initialize a candidate element and a count variable.
+2. Iterate through the list of elements.
+3. If the count is zero, set the current element as the candidate and set count to 1.
+4. If the current element is the same as the candidate, increment the count.
+5. If the current element is different from the candidate, decrement the count.
+6. After one pass through the list, the candidate will be the majority element.'''
 
+
+17-stack in python 
+    stack-initialize empty list , s.appen(val),s.pop()
+    queue-initialize empty list , s.appen(val),s.pop(0)-pop from start
+
+19- var="".join(old_var)
+     it coverts anything to string
