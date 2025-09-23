@@ -100,3 +100,13 @@
 
 19- var="".join(old_var)
      it coverts anything to string
+
+20-parametrs-func def values
+   argeuments-func call values
+   keyword argeuments-  def func(fname,lname)
+                        fun(fname='mujahid',lname='pasha')
+   *args,**kwargs--
+               args-it is like a list,we can send any number of argeuments
+                and perform opertions using loops
+               kwargs-it is like a dictionary,we can send any number of argeuments
+               
