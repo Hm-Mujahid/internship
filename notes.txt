@@ -110,3 +110,7 @@
                 and perform opertions using loops
                kwargs-it is like a dictionary,we can send any number of argeuments
                
+21-             sorted(B) → returns a new sorted list (original list B remains unchanged).
+
+               B.sort() → sorts the list in place, modifying the original 
+               list directly.
